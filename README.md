@@ -14,8 +14,11 @@ __Interfaz de Usuario:__ Proporciona una interfaz básica para interactuar con l
 ### Funcionalidades Principales del Código del Cliente:
 
 __Configuración de la Conexión:__ Establece la conexión con el servidor a través de sockets.
+
 __Control de Cinemática Inversa:__ Implementa algoritmos de cinemática inversa para calcular los ángulos de las articulaciones del robot en función de la posición deseada.
+
 __Interacción con el Usuario:__ Utiliza la biblioteca Pygame para permitir que el usuario envíe comandos de movimiento al robot.
+
 __Envío de Datos:__ Transmite datos relevantes al servidor, como posiciones deseadas y ángulos de rotación.
 
 ## Requisitos y Ejecución:
