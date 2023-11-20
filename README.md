@@ -11,6 +11,8 @@ __Control de Movimientos:__ Dirige los motores del robot en CoppeliaSim para rea
 
 __Interfaz de Usuario:__ Proporciona una interfaz básica para interactuar con la simulación y visualizar los resultados.
 
+__Ejecución de Movimientos Programados:__ Permite ejecutar movimientos preprogramados en la simulación.
+
 ### Funcionalidades Principales del Código del Cliente:
 
 __Configuración de la Conexión:__ Establece la conexión con el servidor a través de sockets.
@@ -20,6 +22,8 @@ __Control de Cinemática Inversa:__ Implementa algoritmos de cinemática inversa
 __Interacción con el Usuario:__ Utiliza la biblioteca Pygame para permitir que el usuario envíe comandos de movimiento al robot.
 
 __Envío de Datos:__ Transmite datos relevantes al servidor, como posiciones deseadas y ángulos de rotación.
+
+__Guardado y Reproducción de Movimientos:__ Ofrece la capacidad de guardar movimientos deseados para luego reproducirlos, facilitando la creación y revisión de secuencias específicas.
 
 ## Requisitos y Ejecución:
 Todos los archivos y bibliotecas necesarias para la ejecución se encuentran proporcionados en el código. Asegúrate de tener instaladas las bibliotecas requeridas, como Pygame y Numpy, para ejecutar el proyecto. El código ha sido desarrollado y probado en el entorno de Thonny, por lo que se recomienda su uso para una ejecución sin problemas.
